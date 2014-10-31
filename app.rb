@@ -22,6 +22,9 @@ puts "Using DB Config: [#{ENV['DATABASE_URL']}]"
 
 set :database, ENV['DATABASE_URL']
 enable :sessions
+set :dump_errors, true
+set :raise_errors, true
+
 
 # Load All the ruby files in helpers and models
 %w(models helpers).each do |directory_to_preload|
