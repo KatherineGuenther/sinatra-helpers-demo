@@ -1,0 +1,39 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background: #eeFFee;
+    height: 100%;
+}
+#header {
+    padding: 10px;
+    background: #ddFFdd;
+    margin: 0px;
+    border-bottom: 1px solid #33FF33;
+}
+#main {
+    padding: 10px;
+    margin: 0px;
+}
+form {
+    padding: 0px;
+    margin: 0px;
+}
+.fragment {
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 5px;
+}
+.fragment__title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.fragment__sentance {
+    padding: 5px;
+    font-weight: bold;
+}
+.logged-in__logout {
+    float: right;
+}
+.logged-in__username {
+    font-weight: bold;
+}

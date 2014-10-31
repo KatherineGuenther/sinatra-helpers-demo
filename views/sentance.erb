@@ -1,0 +1,13 @@
+<h4>Hello Helpers Demo!</h4>
+<hr/>
+
+<table>
+<tr>
+<td>
+ <%= erb :_language_fragment, locals: { title: 'English', sentance: @sentance } %>
+ </td>
+ <td>
+ <%= erb :_language_fragment, locals: { title: 'Latin', sentance: pig_latin(@sentance) } %>
+</td>
+</tr>
+</table> 
