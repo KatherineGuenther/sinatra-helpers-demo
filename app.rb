@@ -18,6 +18,8 @@ $LOAD_PATH.unshift(File.expand_path('.'))
 # set I18n.enforce_available_locales = false to avoid this message.
 I18n.enforce_available_locales = true
 
+puts "Using DB Config: [#{ENV['DATABASE_URL']}]"
+
 set :database, ENV['DATABASE_URL']
 enable :sessions
 
